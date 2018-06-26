@@ -11,10 +11,10 @@ int p(int x){
             sum=sum+A[b]/x;}
         else{
             sum=sum+A[b]/x+1;}}
-if(sum>k){
-    return 0;}
+if(sum<=k){
+    return 1;}
     else{
-        return 1;}}
+        return 0;}}
 
 
 int main(){
